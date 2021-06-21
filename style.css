@@ -1,0 +1,109 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.navigation{
+    display: flex;
+}
+.navigation a{
+    display: block;
+    padding: 14px;
+    text-decoration: none;
+}
+.navigation li{
+    list-style-type: none;
+    border: 2px solid white;
+}
+header{
+    color: white;
+    background-color: rgb(79, 182, 172);
+}
+.about-me{
+    text-align: center;
+}
+.hiring{
+    height: 300px;
+    color: white;
+    background-color: rgb(79, 182, 172);
+}
+.hiring h2{
+    margin:0;
+    font-size: 3rem;
+}
+.center{
+    max-width: 60ch;
+    margin: 0 auto;
+}
+.list-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+} 
+.portfolio{
+    background-color: rgb(254, 234, 237);
+}
+.portfolio h3{
+    margin: 0;
+    padding: 20px 20px;
+    text-align: center;
+
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.card{
+    max-width: 50ch;
+    flex: 0 1 20%;
+    border: 6px solid rgb(175, 20, 87);
+    align-self: center;
+    padding: 25px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    background-color: white;
+}
+.card button{
+    width: 100%;
+    padding: 10px 50px;
+    color: white;
+    background-color: rgb(175, 20, 87);
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    border-color: rgb(175, 20, 87);
+    white-space: nowrap;
+    margin-bottom: 15px;
+}
+.card a{
+    display: block;
+    width: 100%;
+    text-align: center;
+    color: rgb(175, 20, 87);
+}
+.experience{
+    text-align: center;
+}
+
+footer{
+    color: white;
+    background-color: rgb(28, 49, 58);
+    height: 50px;
+    padding: 10px;
+}
+hr{
+    margin: 0;
+    border-top: 5px solid rgb(28, 49, 58);
+}
+.summary{
+    text-transform: uppercase;
+    font-size: 1.8rem;
+font-family: Arial, Helvetica, sans-serif;
+}
